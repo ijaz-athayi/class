@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="2">
+    <title>Document</title>
+    <style>
+        
+        header{
+            display: flex;
+            flex-direction: column;
+        }
+        nav{
+            background-color: red;
+            color: white;
+
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a{
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+        }
+        nav ul ul {
+    background-color: green;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-radius: 0 0 5px 5px;
+    align-items: center;
+  }
+        nav ul ul li{
+            display: none;
+        }
+        nav ul li a:hover{
+            background-color: green;
+        }
+        nav li:hover .submenu{
+            display: block;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="header-page.jpg" alt="" width="100%">
+        <nav>
+            <ul>
+                <li><a href="#">home</a>
+                <ul class="submenu">
+                    <li><a href="">one</a></li>
+                    <li><a href="">two</a></li>
+                    <li><a href="">three</a></li>
+
+                </ul>
+                </li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">visit page</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

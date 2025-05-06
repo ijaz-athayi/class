@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="2"> -->
+    <title>traffic light</title>
+    <style>
+        .one{
+            background-color: white;
+            height: 290px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 16px;
+        }
+
+        body{
+            display: flex;
+            align-items: center;
+            padding-left: 45%;
+            padding-top: 5%;
+        }
+        .aa{
+            border: 5px solid white;
+            border-radius: 50%;
+        }
+        .bb{
+            border: 5px solid white;
+            border-radius: 50%;
+
+        }
+        .cc{
+            border: 5px solid white;
+            border-radius: 50%;
+
+        }
+
+    </style>
+</head>
+<body bgcolor="aqua">
+    <div class="one">
+        <div class="aa" style="height: 70px; width: 70px; background: red;">
+
+        </div>
+        <br>
+        <div class="bb" style="height: 70px; width: 70px; background: black;">
+
+        </div>
+        <br>
+        <div class="cc" style="height: 70px; width: 70px; background: black;">
+
+        </div>
+    </div>
+
+    <script>
+        var redlight = document.getElementsByClassName("aa");
+        var yellowlight = document.getElementsByClassName("bb");
+        var greenlight = document.getElementsByClassName("cc");
+
+        setTimeout(() => {
+            redlight.style.backgroundColor="red"
+        },1000) 
+        // setTimeout(() => {
+        //      redlight.style.backgroundColor="black"
+        // },1000) 
+
+        
+        setTimeout(() => {
+            greenlight.style.backgroundColor="yellow"
+        },2000)
+        // setTimeout(() => {
+        //      redlight.style.backgroundColor="black"
+        // },1000)  
+        
+
+        setTimeout(() => {
+            greenlight.style.backgroundColor="green"
+        },3000)        
+        // setTimeout(() => {
+        //      redlight.style.backgroundColor="black"
+        // },1000)  
+    </script>
+</body>
+</html>

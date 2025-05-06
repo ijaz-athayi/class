@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.one{
+    background-color: white;
+    height: 120px;
+    display: grid;
+    gap: 1px;
+    justify-items: center;
+    width: 40px;
+    border-radius: 10px;
+    margin-left: 45%;
+    box-shadow: 2px 2px grey;
+    padding: 3px;
+}
+
+.two{
+    text-align: center;
+    user-select: none;
+    cursor:not-allowed;
+    text-indent: 10%;
+    padding-right: 10%;
+    text-transform:lowercase;
+    font-family: "Playwrite GB J Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+body{
+    align-items: center;
+
+}
+.aa{
+    border-radius: 50%;
+    box-shadow: 2px 2px rgb(156, 82, 82);
+}
+.bb{
+    border-radius: 50%;
+    box-shadow: 2px 2px rgb(53, 53, 47);
+
+
+}
+.cc{
+    border-radius: 50%;
+    box-shadow: 2px 2px rgb(230, 178, 178);
+
+}
+
+.five{
+    text-shadow: 1px 1px yellow;
+    cursor: pointer;
+}
+a{
+    text-decoration:dotted;
+
+}

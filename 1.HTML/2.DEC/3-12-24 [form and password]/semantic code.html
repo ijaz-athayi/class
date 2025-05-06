@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="refresh" content="2">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 5px;
+            box-sizing: border-box;
+            
+        }
+        body{
+            background: gray;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            
+            
+        }
+        header{
+            background: blueviolet;
+            padding: 2em 0 2em 0;
+        }
+
+        .main{
+            display: flex;
+            height: 550px;
+        }
+
+        .left{
+            background: blueviolet;
+            padding: 3em 0 3em 0;
+            flex: 1 1 100px;
+
+        }
+        main{
+            background: blueviolet;
+            padding: 3em 0 3em 0;
+            flex: 5 5 150px;
+
+        }
+        .right{
+            background: blueviolet;
+            padding: 3em 0 3em 0;
+            flex: 1 1 100px;
+        }
+        footer{
+            background: blueviolet;
+            padding: 1em 0 1em 0;
+        }
+        @media all and (max-width: 550px){
+            .main{
+                flex-direction: column;
+            }
+            main{
+                padding: 5em 0 5em 0;
+            } 
+        
+        }
+
+
+
+
+        </style>
+</head>
+<body>
+    <header> <p>header</p></header>
+    <div class="main">
+        <aside class="left"> left side</aside>
+        <main> main page</main>
+        <aside class="right">right side</aside>
+    </div>
+    <footer> this is the footer </footer>
+</body>
+</html>

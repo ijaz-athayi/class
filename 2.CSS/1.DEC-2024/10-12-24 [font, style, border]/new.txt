@@ -1,0 +1,23 @@
+
+selectors:
+class  = .operator  usable many time
+id = #  usable for one time
+
+
+3types to give a style
+  inline
+  same code
+  external
+fonts by google fonts.
+!important attribute.
+font weight;
+style
+default font size 16px in browser.
+font family
+border
+padding  top&bottom  and right&left  or
+  trbl  -- top right bottom left
+
+
+
+circle with border like a traffic light

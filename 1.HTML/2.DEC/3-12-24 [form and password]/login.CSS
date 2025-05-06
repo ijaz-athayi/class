@@ -1,0 +1,25 @@
+body{
+
+}
+h1{
+    color: palegoldenrod;
+    text-align: center;
+}
+
+form{
+    border-style:solid;
+    text-align: center;
+    border-radius: 50px;
+    border-style: double;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+
+}
+.passw{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 35%;
+}
+

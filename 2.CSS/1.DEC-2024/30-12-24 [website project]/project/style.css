@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+  }
+  a{
+    text-decoration: none;
+  }
+  header{
+
+    display: flex;
+    background-color: grey;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  nav {
+    background-color: red;
+    color: #fff;
+    width: 100%;
+  }
+  header img{
+    width: 100%;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    padding: 10px;
+    display: block;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: green;
+  }
+  
+  nav ul ul {
+    background-color: green;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-radius: 0 0 5px 5px;
+    align-items: center;
+  }
+  
+  nav ul li:hover ul {
+    display: block;
+    width: 100%;
+  }
+  
+  nav ul ul li {
+    display: block;
+    padding: 0;
+  }
+  
+  nav ul ul a {
+    display: block;
+    border-bottom: 1px solid #444;
+  }
+  
+
+  nav ul ul a:hover{
+    background-color: white;
+    color: red;
+  }
+
+  .menu-icon {
+    cursor: pointer;
+    display: none;
+    }
+    #nav-menu {
+    display: block;
+    }
+    .atop{
+      display: NONE;
+    }
+  
+  /* main */
+  main{
+    background-color: grey;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 500px;
+  }
+ 
+  .main{
+    height:500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .aleft{
+    height: 500px;
+    width: 20%;
+    float: left;
+    background-color: wheat;
+  }
+  .aright{
+    display: none;
+  }
+  .donatediv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+  }
+  .donatediv button{
+    width: 70%;
+    height: 50%;
+    background-color: red;
+    border-radius: 8px;
+    font-size:large;
+  }
+  .donatediv button a{
+    color: white;
+  }
+  .donatediv button:hover{
+    background-color: green;
+  }
+  .youtube{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .tweet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+  }
+  .tweet button{
+    width: 70%;
+    height: 70%;
+    background-color: red;
+    border-radius: 8px;
+    font-size:17px;
+    align-items: center;
+  }
+.tweet button a{
+  color: white;
+}
+.tweet button:hover{
+  background-color: green;
+}
+
+.divone{
+  width: 95%;
+  margin-top: 10px;
+}
+
+.pone{
+  font-family:"";
+}
+@media (max-width: 1250px) {
+  .menu-icon {
+  display: block;
+  margin-right: 10px;
+  margin: 5px;
+  }
+  #nav-menu {
+  display: none;
+  }
+  #nav-menu.open {
+  display: block;
+  }
+  nav li {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  position: relative;
+  }
+  .sub-menu {
+    width: 100%;
+  position: relative;
+  align-content: center;
+  top: 0;
+  left: 0;
+  background-color: green;
+  padding: 0;
+  border: none;
+  }
+  .sub-menu li a:hover{
+    background-color: white;
+    color: red;
+  }
+}
+@media (max-width:1000px){
+  .aleft{
+    display: none;
+  }
+  .aright{
+    display:block;
+    height: 500px;
+    width: 20%;
+    background-color: wheat;
+    float: right;
+  } 
+}
+@media (max-width: 900px){
+  .aright{
+    display: none;
+  }
+  .atop{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(197, 164, 164);
+    align-items: center;
+    justify-content: center;
+  }
+  .topdonate{
+    width: 25%;
+    height: 75%;
+    background-color: red;
+    cursor: pointer;
+  }
+}
+
+
+  

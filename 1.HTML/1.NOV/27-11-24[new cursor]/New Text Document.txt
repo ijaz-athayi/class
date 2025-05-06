@@ -1,0 +1,18 @@
+list-style=none;
+list-style-type="emogi";
+
+text-decrator
+cursor
+
+
+represent link with custermised cursor
+
+
+list 
+ancor tag
+
+
+
+ 
+	   
+	   

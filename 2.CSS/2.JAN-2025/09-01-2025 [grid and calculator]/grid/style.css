@@ -1,0 +1,33 @@
+NAV{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+
+}
+nav li{
+    float: left;
+    position: relative;
+
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li a{
+    text-decoration: none;
+    display: block;
+    padding: 16px;
+    color: white;
+}
+header{
+    height: 100px;
+}
+nav li a:hover{
+    background-color: grey;
+}
+.hone{
+    font-family: "Gabriela";
+}

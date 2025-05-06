@@ -1,0 +1,53 @@
+examples:
+let x = 10;
+let y = 20;
+let z = 30;
+let name =" ijaz";
+
+operators:
+	arithmatic operators.
+	comparison operators.
+	assignment operators.
+	logical operators.
+	bitwise operators.
+
+1. arithmatic operators:
+
+	addition       +    = adding some of the numbers.
+	subraction     -    = subracting some of the numbers.
+	multiplicatin  *    = muliply some of numbers.
+	division       /    = divide some of numbers
+	reminder       %    = it is a reminer comes from division. 
+	exponential    **   = it is the power of number1 to number2 
+							{eg.(5 ** 3) 5 the power of 3 }
+	increment      ++   = it increase the number.
+							{eg."(++x) = 11 " hereafter the value of x is 11 but
+								"(x++) = 10"  it cant change but hereafter x value is 11(it means after to this will change)
+							}
+	decrement      --   =
+							{eg."(--x) = 9 " hereafter the value of x is 9 but
+								"(x--) = 10"  it cant change but hereafter x value is 9(it means after to this will change)
+							}
+							
+2. comparison operators:
+	//relational operatiors
+	greater than	   >   it gives boolean resoponse (true or false)
+	less than		   <
+	greater than equal >= 
+	less than equal    >= 
+	
+	//equality operators
+	datatype equal	===
+	value equal to	==
+	not equal to	!==
+	
+	//string comparison
+	('alen' > 'anbu') it changes into dictionary mode;
+	//a  =   a
+	//l  != n  "l is first then n" so true.
+	
+	// comparison of different type 
+	("1" < 5) its true because it see the number inside the string 
+	(true < 1) its true 1 = true   then  
+						0 = false
+	

@@ -1,0 +1,164 @@
+.topnav{
+    display: flex;
+    background-color: #f0f3f2;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+  }
+  .topnavp{
+    margin: 0;
+  }
+.langselect{
+  height: auto;
+    background-color: #f0f3f2;
+    border: 0;
+}
+  .logodiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .slidebutt{
+    border-radius: 50%;
+  }
+  .dropdown:hover .dropdown-menu{
+    display: block;
+    margin: 0;
+}
+.anavbar{
+  padding-left: 10%;
+}
+
+#searchicon{
+  display: block;
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 9px;
+}
+  
+#locationid{
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  border: 1px solid grey;
+  margin-left: 5px;
+}
+.locationdiv{
+  position: absolute;
+  right: 0;
+  width: 25%;
+  height: 100%;
+}
+/*   these are the first slide  */
+.carousel-inner{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.carousel-item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide1div{
+  width: 80%;
+  height: 450px;
+  background-color: #cfe7d9;
+  display: flex;
+  background-image: url(https://transvelo.github.io/freshcart/assets/images/slide-1.jpeg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: 115% 100%;
+  border-radius: 15px;
+
+
+}
+.dis50{
+  background-color: yellow;
+  padding: 5px;
+  border-radius: 20px;
+  margin: 0;
+  font-size: 10px;
+}
+.slide1sect1{
+  width: 70%;
+  float: left;
+  margin-top: 8%;
+  margin-left: 5%
+}
+.slide1sect2{
+  width: 30%;
+  float: left;
+    
+}
+.heading{
+  font-size: 45px;
+}
+.intropara{
+  font-size: 20px;
+}
+.showbut{
+  background-color: #001e2b;
+  color: white;
+  padding: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  border-radius: 10px;
+}
+
+
+/*  theese are the second lines */
+
+
+.slide2div{
+  background-image: url(vegetableback.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 130% 100%;
+  width: 80%;
+  height: 450px;
+  background-color: #cfe7d9;
+  display: flex;
+  position: relative;
+  border-radius: 15px;
+}
+
+.ship100{
+background-color: yellow;
+padding: 5px;
+border-radius: 20px;
+margin: 0;
+font-size: 10px;
+}
+.slide2sect1{
+width: 70%;
+float: left;
+margin-top: 8%;
+margin-left: 5%
+}
+.slide1sect2{
+width: 30%;
+float: left;
+  
+}
+.slide2heading{
+font-size: 45px;
+}
+.intropara2{
+font-size: 20px;
+}
+.showbut2{
+background-color: #001e2b;
+color: white;
+padding: 15px;
+padding-top: 8px;
+padding-bottom: 8px;
+display: flex;
+border-radius: 10px;
+}
+

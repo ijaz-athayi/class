@@ -1,0 +1,9 @@
+table
+row
+heading
+
+difference between
+progress tag
+meter tag
+
+auto play video

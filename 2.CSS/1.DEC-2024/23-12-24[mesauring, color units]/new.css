@@ -1,0 +1,28 @@
+#firstparent{
+    color: aqua;
+}
+
+#firstparent :first-child{
+    color: blueviolet;
+}
+#firstparent :nth-child(even){
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+}
+a:active{
+    color: yellow;
+        }
+a:visited {
+     color: green;
+}
+
+input:focus {
+    border: 5px solid red;
+    box-shadow: 10px 10px black;
+}
+q:lang(tit) {
+    quotes: "-" "-";
+}

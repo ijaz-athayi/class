@@ -1,0 +1,50 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+.slide1div{
+    width: 950px;
+    height: 450px;
+    background-color: #cfe7d9;
+    display: flex;
+    background-image: url(https://transvelo.github.io/freshcart/assets/images/slide-1.jpeg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 115% 100%;
+
+  }
+  .dis50{
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 0;
+    font-size: 10px;
+  }
+  .slide1sect1{
+    width: 70%;
+    float: left;
+    margin-top: 8%;
+    margin-left: 5%
+  }
+  .slide1sect2{
+    width: 30%;
+    float: left;
+      
+  }
+  .heading{
+    font-size: 45px;
+  }
+  .intropara{
+    font-size: 20px;
+  }
+  .showbut{
+    background-color: #001e2b;
+    color: white;
+    padding: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    border-radius: 10px;
+  }

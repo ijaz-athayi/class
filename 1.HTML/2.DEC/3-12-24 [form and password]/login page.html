@@ -1,0 +1,79 @@
+<html>
+    <head>
+          <title>login page</title>
+          <link rel="stylesheet" href="login.CSS">
+          <!-- <meta http-equiv="refresh" content="2"> -->
+    </head>
+    <body>
+    <h1>this is our website login page</h1>
+    <form >
+        <div>
+            <label for="name"> candidate name:</label> <br>
+            <input id="name" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="age" > age:</label> <br>
+            <input id="age" type="number" min="1" size="5">
+        </div>
+        <br>
+        <div >
+            <label for="pass"> password :</label> <br>
+            <div class="passw"> 
+            <input id="pass" type="password" id="password">
+            <img src="eyeclose.svg" width="30px" class="icon" id="eyeclose"></div>
+        </div>
+        <br> <br>
+        <div>
+            <label for="file"> choose file :</label> <br>
+            <input id="file" type="file">
+        </div>
+        <br>        
+        <div>
+            <label for="course"> course :</label> <br>
+            <select name="course" id="course">
+                <option> oracle</option>
+                <option> fullstack</option>
+            </select>
+        </div>
+        <br>
+        <div>
+        <label for="city"> choose your city: </label><br>
+        <select name="city" id="city"> 
+            <optgroup>
+                <option>chennai</option>
+                <option>madurai</option>
+                <option>panjab</option>
+                <option>goa</option>
+            </optgroup><br>
+
+        </select><br>
+        </div>
+        <br>
+        <div>
+            <button>
+                submit
+            </button>
+        </div>
+    </form>
+
+    <script>
+
+        let eyeclose = document.getElementById("eyeclose");
+        let password = document.getElementById("password");
+    
+        eyeclose.onclick = function(){
+            debugger
+            if(password.type == "password"){
+                password.type = "text";
+                eyeclose.src= "eyeopen.svg";
+            }else {
+                password.type = "password";
+                eyeclose.src= "eyeclose.svg";
+            }
+        }
+    
+    </script>
+
+    </body>
+</html>

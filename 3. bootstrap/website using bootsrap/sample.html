@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        .dropdown:hover .dropdown-menu{
+            display: block;
+            margin: 0;
+        }
+
+        .location-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.location-button:hover {
+  background-color: #3e8e41;
+}
+
+.location-button i {
+  margin-right: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+
+
+            <nav class="navbar navbar-light bg-light">
+                <div class="container-fluid">
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    
+                    <button type="button" class="text-muted btn btn-outline-gray-400"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>Location</button>
+
+
+                  </form>
+                </div>
+              </nav>
+          </ul>
+        </div>
+      </nav>
+
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        my account
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">order           </a>
+        <a class="dropdown-item" href="#">setting         </a>
+        <a class="dropdown-item" href="#">address         </a>
+        <a class="dropdown-item" href="#">payment method  </a>
+        <a class="dropdown-item" href="#">notification    </a>
+
+
+<button class="location-button">
+  <i class="fas fa-map-marker-alt"></i>
+  New York
+</button>
+
+<div style="height: 100px; width: 100%;">
+
+</div>
+<div class=" w-100 w-lg-auto dropdown-fullwidth nav-item show dropdown">
+  <a aria-expanded="true" role="button" class="dropdown-toggle show nav-link" tabindex="0" href="#">Mega menu</a>
+  <div aria-labelledby="" data-bs-popper="static" class="dropdown-menu show">
+    <div class="p-2 p-lg-4 row">
+      <div class="mb-4 mb-lg-0 col-lg-3 col-12">
+        <h6 class="text-primary ps-3">Dairy, Bread &amp; Eggs</h6>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Butter</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Milk Drinks</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Curd &amp; Yogurt</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Eggs</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Buns &amp; Bakery</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Cheese</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Condensed Milk</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Dairy Products</a>
+      </div>
+      <div class="mb-4 mb-lg-0 col-lg-3 col-12">
+        <h6 class="text-primary ps-3">Breakfast &amp; Instant Food</h6>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Breakfast Cereal</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Noodles, Pasta &amp; Soup</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Frozen Veg Snacks</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Frozen Non-Veg Snacks</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Frozen Non-Veg Snacks</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Instant Mixes</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Batter</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Fruit and Juices</a>
+      </div>
+      <div class="mb-4 mb-lg-0 col-lg-3 col-12">
+        <h6 class="text-primary ps-3">Cold Drinks &amp; Juices</h6>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Soft Drinks</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Fruit Juices</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Coldpress</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Water &amp; Ice Cubes</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Soda &amp; Mixers</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Health Drinks</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Herbal Drinks</a>
+        <a data-rr-ui-dropdown-item="" class="dropdown-item" href="">Milk Drinks</a>
+      </div>
+      <div class="mb-4 mb-lg-0 col">
+        <div class="border-0 card">
+          <img src="/images/banner/menu-banner.jpg" alt="eCommerce HTML Template" class="img-fluid">
+          <div class="position-absolute ps-6 mt-8">
+            <h5 class="mb-0">Dont miss this<br>offer today.</h5>
+            <a class="btn btn-primary btn-sm mt-3" href="#">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+        
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+<script>
+  const locationButton = document.querySelector('.location-button');
+
+locationButton.addEventListener('click', () => {
+  // Open a map or provide more information about the location
+  window.open('https://www.google.com/maps/place/New+York/');
+});
+
+</script>
+
+</body>
+</html>

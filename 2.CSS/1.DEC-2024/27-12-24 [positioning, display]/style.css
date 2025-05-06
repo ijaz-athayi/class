@@ -1,0 +1,30 @@
+  
+.parent{
+    height:400px;
+    width:97%;
+    border-width:10px;
+    border-style:solid;
+    border-color: gray;
+    border-radius: 30px;
+}
+.one{
+    display:inline-block;
+    height:150px;
+    width: 30%;
+    margin:10px; 
+    padding:5px;
+    margin-top: 20px;
+    background-color: blue;
+    align-items: center;
+    }
+
+    
+    .two{
+        display:inline-block;
+        height:150px;
+        width: 30%;
+
+        margin:10px; 
+        padding:5px;
+        background-color: blue;
+    }

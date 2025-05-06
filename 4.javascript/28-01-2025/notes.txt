@@ -1,0 +1,43 @@
+// console.log(1 + "2" + 3); 
+// console.log("5" - 2); 
+// console.log(10 == "10"); 
+// console.log(10 === "10");
+//  console.log(a);
+//   var a = 10;
+// console.log(NaN === NaN); 
+// console.log(Object.is(NaN, NaN)); 
+// console.log(null === undefined);
+//  console.log(null = undefined);
+// console.log(undefined + 2);
+// console.log(true || false && false); 
+// console.log((true || false) && false); 
+// console.log(0 || 1 && 2); 
+// console.log(0 && 1 || 2);
+// console.log([] + []);
+// console.log([] + {});
+// console.log({} + []);
+// console.log({} + {});
+
+var input1 = 100;
+var input2 = 200;
+var input3 = 300;
+var result = input1 < input2;
+console.log(result);
+console.log(Math.max(input1, input2, input3));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Title</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- <meta http-equiv="refresh" content="2"> -->
+</head>
+<body>
+  <header>
+    <img src="header-page.jpg" alt="">
+<nav>
+  <div class="menu-icon" id="menu-icon">
+    <img src="menu.svg" alt="Menu Icon" style="float: right; width:30px; height: 30px;">
+  </div>
+  <ul id="nav-menu">
+    <li><a href="#">HOME</a></li>
+
+    <li><a href="#">HOW TO VOLUNTEER</a>
+      <ul class="sub-menu">
+        <li><a href="#">FOR INDIVIDUALS</a></li>
+        <li><a href="#">FOR COMPANIES</a></li>
+        <li><a href="#">FAQS</a></li>
+      </ul>
+    </li>
+
+    <li><a href="#">SEEKING GIFTS?</a></li>
+
+    <li><a href="#">ABOUT US</a>
+      <ul class="sub-menu">
+        <li><a href="#">WHO WE ARE</a></li>
+        <li><a href="#">IMAGES</a></li>
+      </ul>
+    </li>
+      <li><a href="#">PHOTOS</a></li>
+
+      <li><a href="#">PRESS RELEASES</a></li> 
+
+        <li><a href="#">REAL SANTA LETTERS</a></li>
+  </ul>
+</nav>
+  </header>
+
+  <main>
+    <aside class="aleft">  
+
+      <div class="donatediv">
+        <button width="100%"><a href="#">DONATE NOW</a></button>
+      </div>
+      <div class="youtube">
+        <a href=""><img src="facebook.png" width="30px"></a>
+        <a href=""><img src="twitter.png" width="30px"></a>        
+        <a href=""><img src="instagram.png" width="30px"></a>
+      </div>
+      <div class="tweet">
+        <button width="100%"><a href="#">GREAT TWEETS & POSTS</a></button>
+      </div>
+    </aside>
+    <div class="aright">
+      
+      <div class="donatediv">
+        <button width="100%"><a href="#">DONATE NOW</a></button>
+      </div>
+      <div class="youtube">
+        <a href=""><img src="facebook.png" width="30px"></a>
+        <a href=""><img src="twitter.png" width="30px"></a>        
+        <a href=""><img src="instagram.png" width="30px"></a>
+      </div>
+      <div class="tweet">
+        <button width="100%"><a href="#">GREAT TWEETS & POSTS</a></button>
+      </div>
+    </div>
+    <div class="atop">
+      <button class="topdonate">DONATE NOW</button>
+    </div>
+   <div class="main">
+    <div class="divone" >
+      <h2 style="color: rgb(43,114,37);">Volunteer to Answer Letters to Santa</h2 >   
+        <p class="pone" >December 9th, 2024, was the last day to mail letters to Santa and have them considered
+           by postal elves for the USPS website. But you can still write to the jolly man, and of 
+           COURSE he'll bring his gifts! Search on Google for 'Free toys near me,' 'Toy drives near me,
+           ' 'free toys for Christmas,' and halfway down this page, see the sub-headline,
+           "Here’s how to make a powerful video for your free GoFundMe campaign." </p>
+
+            
+          </div>
+   </div>
+    </main>
+  <footers>
+    <!-- <p>&copy;</p> -->
+  </footer>
+  <script>
+    const menuIcon = document.getElementById('menu-icon');
+const navMenu = document.getElementById('nav-menu');
+
+menuIcon.addEventListener('click', () => {
+navMenu.classList.toggle('open');
+});
+
+function openSubmenu(element) {
+const submenu = element.nextElementSibling;
+if (submenu) {
+submenu.classList.toggle('open');
+}
+}
+  </script>
+</body>
+</html>
+
